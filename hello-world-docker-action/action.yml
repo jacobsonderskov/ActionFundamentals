@@ -8,7 +8,7 @@
  outputs: 
    time: 
      description: 'time of the world at hello' 
- runs 
+ runs:
    using: 'docker' 
    image: 'Dockerfile' 
    args: 
